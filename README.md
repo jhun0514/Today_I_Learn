@@ -49,7 +49,7 @@
 
 # Part 1. CS 전공 지식
 
-## :bulb: 운영체제 [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/operating_system)
+## :bulb: 운영체제 [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/operating_system)
 
 - 프로세스와 스레드
   - 둘의 관계 및 셜명
