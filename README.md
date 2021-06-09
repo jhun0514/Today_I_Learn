@@ -10,7 +10,7 @@
   <!-- - [개발상식](https://github.com/jhun0514/Today_I_Learn/tree/master/Development_common_sense)
   - [자료구조](https://github.com/jhun0514/Today_I_Learn/tree/master/DataStructure)
   - [네트워크](https://github.com/jhun0514/Today_I_Learn/tree/master/Network)-->
-  - [운영체제](https://github.com/jhun0514/Today_I_Learn/tree/master/operating_system)
+  - [운영체제](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/operating_system)
   <!-- - [데이터베이스](https://github.com/jhun0514/Today_I_Learn/tree/master/Database)
   - [디자인패턴](https://github.com/jhun0514/Today_I_Learn/tree/master/DesignPattern) -->
 - [Part 2. Algorithm](#part-2-Algorithm)
