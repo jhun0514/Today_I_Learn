@@ -6,7 +6,7 @@
   * [group anagrams](#group-anagrams)
   * [longest substring without repeating characters](#longest-substring-without-repeating-characters)
 * [Level 3](#Level-3)
-  * [decimal to binary to zero](#decimal-to-binary-to-zero)
+  * [decimal to binary to zero](#decimal-to-binary-to-zero) :zap:
 
 [뒤로](https://github.com/jhun0514/Today_I_Learn)
 

@@ -15,9 +15,9 @@
   - [디자인패턴](https://github.com/jhun0514/Today_I_Learn/tree/master/DesignPattern) -->
 - [Part 2. Algorithm](#part-2-Algorithm)
 - [Part 3. Coding Test](#part-3-Coding-Test)
-<!-- - [Part 4. Language](#part-4-language)
-  - [Java](https://github.com/jhun0514/Today_I_Learn/tree/master/Java)
-  - [JavaScript](https://github.com/jhun0514/Today_I_Learn/tree/master/JavaScript)
+- [Part 4. Language](#part-4-Language)
+  - [Java](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/java)
+<!--
   - [Python](https://github.com/jhun0514/Today_I_Learn/tree/master/Python)
 - [Part 3. 분야별 정리](#part-3-분야별)
   - [FrontEnd](https://github.com/jhun0514/Today_I_Learn/tree/master/FrontEnd)
@@ -82,6 +82,18 @@
 # Part 3. Coding Test
 
 ## 코딩테스트 연습한 문제들을 정리 했습니다. [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Coding_Test_Practice)
+
+</br>
+
+<sup>[(목차로 돌아가기)](#Today-I-Learn)</sup>
+
+</br>
+
+---
+
+# Part 4. Language
+
+## :bulb: Java [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/java)
 
 </br>
 
