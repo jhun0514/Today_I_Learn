@@ -35,7 +35,7 @@
 - 프로세스는 다른 프로세스와 정보 공유를 하려면 IPC등 번거로운 과정을 거쳐야 하지만, 스레드는 기본 구조 자체가 메모리를 공유하는 구조이기 때문에 다른 스레드와 정보 공유가 쉽다.
 - 따라서 멀티 태스킹보다 멀티 스레드가 자원을 더 아낀다 / 하지만 스케줄링은 스레드를 지원하지 않기에 프로그래머가 직접 동기화 문제를 대응해야 한다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/CS_Knowledge/operating_system/process-thread.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/CS_Knowledge/operating_system/process_thread.md)
 
 </br>
 
@@ -57,7 +57,7 @@
 - GPU는 코어수는 많지만 각각의 코어가 보다 더 성능이 낮기에 병렬적인 작업에 강점이 있다.
 - 연산속도에서 차이가 난다! 연산 집약적인 부분을 GPU로 넘기고 나머지 코드를 CPU에서 처리하는 딥러닝, 머신러닝, 그래픽스에서 강력한 성능을 제공한다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/CS_Knowledge/operating_system/cpu_gpu.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/CS_Knowledge/operating_system/cpu_gpu.md)
 
 </br>
 
@@ -81,7 +81,7 @@
 - 스택: 지역 변수만 저장, 크기제한, 변수크기 조정불가 / 힙: 크기제한 없음, 메모리 관리해야한다.
 > 한줄 답변: 스택은 정적 메모리 구조, 힙은 동적 메모리 구조를 가진다
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/CS_Knowledge/operating_system/memory_structure.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/CS_Knowledge/operating_system/memory_structue_stack_heap.md)
 
 </br>
 

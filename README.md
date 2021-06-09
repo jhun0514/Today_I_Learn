@@ -13,8 +13,8 @@
   - [운영체제](https://github.com/jhun0514/Today_I_Learn/tree/master/operating_system)
   <!-- - [데이터베이스](https://github.com/jhun0514/Today_I_Learn/tree/master/Database)
   - [디자인패턴](https://github.com/jhun0514/Today_I_Learn/tree/master/DesignPattern) -->
-- [Part 2. Algorithm](https://github.com/jhun0514/Today_I_Learn/tree/master/Algorithm)
-- [Part 3. Coding Test](https://github.com/jhun0514/Today_I_Learn/tree/master/Coding_Test_Practice)
+- [Part 2. Algorithm](#part-2-Algorithm)
+- [Part 3. Coding Test](#part-3-Coding-Test)
 <!-- - [Part 4. Language](#part-4-language)
   - [Java](https://github.com/jhun0514/Today_I_Learn/tree/master/Java)
   - [JavaScript](https://github.com/jhun0514/Today_I_Learn/tree/master/JavaScript)
@@ -69,15 +69,29 @@
 
 ---
 
-</br>
-
 # Part 2. Algorithm
 
+## 대표 알고리즘들을 정리 했습니다.[Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Algorithm)
+
 </br>
+
+---
 
 # Part 3. Coding Test
 
+## 코딩테스트 연습한 문제들을 정리 했습니다.[Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Coding_Test_Practice)
+
 </br>
+
+---
+
+</br>
+
+<sup>[(목차로 돌아가기)](#Today-I-Learn)</sup>
+
+</br>
+
+---
 
 ## 참고 자료
 

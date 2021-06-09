@@ -24,7 +24,7 @@
 
 - 영어이름 궁합을 계산하여 결과를 return한다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/1_namepoint.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#Coding-Test-Practice)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/1_namepoint.md)
 
 </br>
 
@@ -40,7 +40,7 @@
 
 - Given an array of strings strs, group the anagrams together.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/2_Group_Anagrams.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#Coding-Test-Practice)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/2_Group_Anagrams.md)
 
 </br>
 
@@ -48,7 +48,7 @@
 
 - Given a string s, find the length of the longest substring without repeating characters.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/2_Longest_Substring_Without_Repeating_Characters.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#Coding-Test-Practice)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/2_Longest_Substring_Without_Repeating_Characters.md)
 
 </br>
 
@@ -64,6 +64,6 @@
 
 - Decimal 숫자(input)를 Binary로 변환 후 모든 binary 숫자를 0으로 바꿔서 바꾼과정을 count하여 return한다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-1-1-운영체제)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/3_Decimal%20to%20Binary%20to%20Zero%20with%20Python.md)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#Coding-Test-Practice)/[자세히](https://github.com/jhun0514/Today_I_Learn/blob/master/Coding_Test_Practice/3_Decimal%20to%20Binary%20to%20Zero%20with%20Python.md)
 
 </br>
