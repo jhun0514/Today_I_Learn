@@ -71,7 +71,11 @@
 
 # Part 2. Algorithm
 
-## 대표 알고리즘들을 정리 했습니다.[Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Algorithm)
+## 대표 알고리즘들을 정리 했습니다. [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Algorithm)
+
+</br>
+
+<sup>[(목차로 돌아가기)](#Today-I-Learn)</sup>
 
 </br>
 
@@ -79,11 +83,7 @@
 
 # Part 3. Coding Test
 
-## 코딩테스트 연습한 문제들을 정리 했습니다.[Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Coding_Test_Practice)
-
-</br>
-
----
+## 코딩테스트 연습한 문제들을 정리 했습니다. [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/Coding_Test_Practice)
 
 </br>
 
