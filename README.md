@@ -41,25 +41,23 @@
 
 ---
 
-<!-- ### [실제로 면접에서 받았던 질문들](https://github.com/jhun0514/Today_I_Learn/issues/59)
+# 실제로 면접에서 받았던 질문들
 
-실제로 받았던 면접 질문들 시간 별로 정리해 놨습니다. (다른 카테고리의 파일에서 노란색 음영의 내용은 실제 면접에 나왔던 것입니다.)
+실제로 받았던 면접 질문들이나 코딩 테스트들은 이름 옆에 번개 아이콘으로 표시해 두었습니다.
 
---- -->
+</br>
+
+</br>
+
+---
 
 # Part 1. CS 전공 지식
 
 ## :bulb: 운영체제 [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/operating_system)
 
 - 프로세스와 스레드
-  - 둘의 관계 및 셜명
-  - 차이점
 - CPU와 GPU
-  - 설명
-  - CPU vs GPU
 - 메모리 구성
-  - 메모리 영역
-  - 스택 vs 힙
 
 </br>
 
