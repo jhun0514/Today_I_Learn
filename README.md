@@ -7,10 +7,11 @@
 - [Description](#description)
 - [실제로 면접에서 받았던 질문들](#실제로-면접에서-받았던-질문들)
 - [Part 1. CS](#part-1-CS-전공-지식)
-  <!-- - [개발상식](https://github.com/jhun0514/Today_I_Learn/tree/master/Development_common_sense)
+  <!--
   - [자료구조](https://github.com/jhun0514/Today_I_Learn/tree/master/DataStructure)
   - [네트워크](https://github.com/jhun0514/Today_I_Learn/tree/master/Network)-->
   - [운영체제](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/operating_system)
+  - [개발상식](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/common_sense_of_development)
   <!-- - [데이터베이스](https://github.com/jhun0514/Today_I_Learn/tree/master/Database)
   - [디자인패턴](https://github.com/jhun0514/Today_I_Learn/tree/master/DesignPattern) -->
 - [Part 2. Algorithm](#part-2-Algorithm)
@@ -21,6 +22,7 @@
   - [Python](https://github.com/jhun0514/Today_I_Learn/tree/master/Python)-->
 - [Part 5. 분야별 정리](#part-5-분야별)
   - [BackEnd](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/server)
+  - [Spring](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/springboot)
 - [참고 자료](#참고-자료)
 
 </br>
@@ -41,7 +43,7 @@
 
 # 실제로 면접에서 받았던 질문들
 
-실제로 받았던 면접 질문들이나 코딩 테스트들은 이름 옆에 번개 아이콘으로 표시해 두었습니다.
+실제로 받았던 면접 질문들이나 코딩 테스트들은 이름 옆에 :zap: 아이콘으로 표시해 두었습니다.
 
 </br>
 
@@ -56,6 +58,14 @@
 - 프로세스와 스레드
 - CPU와 GPU
 - 메모리 구성
+- 커널
+
+</br>
+
+## :bulb: 개발상식 [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/common_sense_of_development)
+
+- GitFlow
+- PR 코드리뷰
 
 </br>
 
@@ -92,6 +102,24 @@
 # Part 4. Language
 
 ## :bulb: Java [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/java)
+- JVM
+- Static
+- final
+- this
+- Enum
+- Shift
+- Annotation
+- 오버로딩 vs 오버라이딩
+- 상속
+- super
+- abstract
+- interface
+- 변수의 종류
+- 패키지
+- Lambda
+- Lombok
+- JPA
+- 예외처리
 
 </br>
 
@@ -104,6 +132,31 @@
 # Part 5. 분야별
 
 ## :bulb: BackEnd [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/server)
+- Maven vs Gradle
+- Servlet
+- JUnit
+- Apache and Tomcat
+- JSON
+- Logging
+- AssertJ
+- MVC
+- H2DB
+- JDBC
+- 동시성 문제
+- REST API
+- TDD
+- 소프트웨어 아키텍처
+- 애자일 방법론
+
+</br>
+
+## :bulb: Spring [Link](https://github.com/jhun0514/Today_I_Learn/tree/master/CS_Knowledge/springboot)
+- Spring Boot
+- Thymeleaf vs jsp
+- Spring Boot Devtools
+- Spring DI
+- 스프링 데이터베이스 접근 기술
+- RestTemplate
 
 </br>
 

@@ -1,6 +1,23 @@
 # Part 4-1 Java
 
 * [JVM](#JVM)
+* [Static](#Static)
+* [final](#final)
+* [this](#this)
+* [Enum](#Enum)
+* [Shift](#Shift)
+* [Annotation](#Annotation)
+* [오버로딩 vs 오버라이딩](#오버로딩-vs-오버라이딩)
+* [상속](#상속)
+* [super](#super)
+* [abstract](#abstract)
+* [interface](#interface)
+* [변수의 종류](#변수의-종류)
+* [패키지](#패키지)
+* [Lambda](#Lambda)
+* [Lombok](#Lombok)
+* [JPA](#JPA)
+* [예외처리](#예외처리)
 
 [뒤로](https://github.com/jhun0514/Today_I_Learn)
 
@@ -59,7 +76,7 @@
   * static 메소드의 경우 인스턴스를 생성하지 않아도 호출이 가능하다.
   * static 변수의 값을 증가 시키면 저장공간을 공유하기에 값을 항상 저장하고 있다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://coding-factory.tistory.com/524)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](##part-4-1-Java)/[참고자료](https://coding-factory.tistory.com/524)
 
 </br>
 
@@ -76,7 +93,7 @@
   * final 메서드: 부모의 final 메서드는 재정의 할 수 없다.
   * final 인자값: 마찬가지로 인자값 변경이 불가하다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)
 
 </br>
 
@@ -86,7 +103,7 @@
 
 - 의미: 인자값의 변수를 필드의 이름과 같이 하려할때 사용한다. 메서드의 인수나 변수에 필드와 같은 이름을 붙여도 그것들을 구분하여 사용할 수 있다. 주로, 생성자와 메소드의 매개변수 이름이 필드와 동일한 경우, 인스턴스 멤버인 필드임을 명시하고자 할 때 사용된다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://coding-factory.tistory.com/523?category=758267)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://coding-factory.tistory.com/523?category=758267)
 
 </br>
 
@@ -96,13 +113,18 @@
 
 - 의미: 열거 타입을 선언하기 위한 키워드이다. 열거 타입이름을 지정하고 열거 상수를 나열하면 된다. 열거 타입 이름으로 소스파일(.java)를 생성하여도 된다.
 
+- 장점:
+  * 문자열과 비교해, IDE의 적극적인 지원을 받을 수 있습니다.
+  * 허용 가능한 값들을 제한할 수 있습니다.
+  * 리팩토링시 변경 범위가 최소화 됩니다
+
 - 관련 메서드:
   * Ordinal(): 전체 열거 객체 중 몇번째 열거 객체인지 알려준다.(0 부터 시작)
   * valueOf(): 매개 값으로 주어지는 문자열과 동일한 문자열을 가지는 열거 객체를 리턴한다.
   * name(): 열거 객체가 가지고 있는 문자열을 리턴한다. 리턴되는 문자열은 열거 타입을 정의할때 사용한 상수 이름과 동일하다.
   * compareTo(): 매개값으로 주어진 열거 객체를 기준으로 전후로 몇번째 위치하는지 비교한다. 순번이 빠르다면 음수, 늦다면 양수가 리턴 된다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)
 
 </br>
 
@@ -123,7 +145,7 @@
   * ^: 두 비트 중 하나는 1 하나는 0일 경우에 연산 결과 1
   * ~: 비트 반전(보수)
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://coding-factory.tistory.com/521?category=758267)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://coding-factory.tistory.com/521?category=758267)
 
 </br>
 
@@ -147,7 +169,7 @@
   * Inherited: 어노테이션의 상속을 가능하게 한다.
   * Repeatable: 연속적으로 어노테이션을 선언할 수 있게 해준다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://elfinlas.github.io/2017/12/14/java-annotation/)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://elfinlas.github.io/2017/12/14/java-annotation/)
 
 </br>
 
@@ -168,7 +190,7 @@
 - 매개변수, 타입: 오버로딩: 다름 / 오버라이딩: 동일
 - 리턴 타입: 오버로딩: 상관없음 / 오버라이딩: 동일
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://private.tistory.com/25)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://private.tistory.com/25)
 
 </br>
 
@@ -185,7 +207,7 @@
   * static 메서드나 변수도 상속된다.
   * 동일한 이름의 변수가 부모 자식 모두 존재할 경우 부모의 변수는 가려진다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://private.tistory.com/27?category=655783)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://private.tistory.com/27?category=655783)
 
 </br>
 
@@ -203,7 +225,7 @@
   * 자식클래스의 생성자 내에서 반드시 부모의 생성자를 호출해야 한다.(에러는 나지 않는다 가상머신에의해 디폴트 생성자가 알아서 추가된다.)
   * 명시적으로 자식에서 부모의 생성자를 호출하지 않아도 super가 자동 삽입되어 부모의 생성자를 호출한다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://private.tistory.com/27?category=655783)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://private.tistory.com/27?category=655783)
 
 </br>
 
@@ -217,7 +239,7 @@
   * 추상 메서드를 재정의 하지 않을 경우 컴파일러는 에러를 발생시킨다.
   * 추상 클래스는 해달 클래스를 통해 만들어낸 객체가 전혀 객체의 모습을 띄지 못할때 해달 클래스가 객체를 생성할 수 없도록 사용된다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://private.tistory.com/20?category=655783)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://private.tistory.com/20?category=655783)
 
 </br>
 
@@ -255,7 +277,7 @@
   * 자식이 일반메서드는 사용하지 않아도 문제 없다
 - 정리 해보자면 인터페이스는 다형성에 초점, 추상은 부모-자식 관계로 부모가 가진 기능을 쓰거나 발전시킨다.
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://private.tistory.com/20?category=655783)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://private.tistory.com/20?category=655783)
 
 </br>
 
@@ -278,7 +300,157 @@
 - 지역 변수: 메소드 내에 선언되며 메소드 호출시 생성되고 종료되면 사라진다.
 - 매개 변수: parameter, 입력값을 받을때 사용되는 변수 (지역변수에 들어간다)
 
-[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-1-BackEnd)/[참고자료](https://sleepyeyes.tistory.com/28)
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://sleepyeyes.tistory.com/28)
+
+</br>
+
+---
+
+## 패키지
+
+- 의미: 클래스를 모아넣는 디렉토리로 예로 java.lang.System 클래스는 java패키지의 하위 패키지인 lang에 속한 (java 밑의 lang 밑의 System.class 파일이다)
+- 특징:
+  * 모든 클래스파일은 패키지 안에 들어있어야 한다.
+  * 패키지는 또다른 패키지 파일에 넣을 수 있다.
+  * 패키지는 소스파일 첫번째 문장으로 단한번 선언한다.
+  * 같은 소스파일의 클래스들은 모든 같은 패키지에 속하게 된다.
+  * 패키지 선언이 없으면 이름 없는 패키지에 속하게 된다.
+
+### java.lang
+- import 문으로 호출하지 않아도 기본적으로 로딩되는 패키지로 이 패키지가 자바의 기본 클래스와 인터페이스를 제공하고 있다.
+- java.lang.Object 클래스는 최상위 클래스이며, JDK에서 제공하는 모든 패키지의 최상위 클래스이다.
+
+### java.util
+- 날짜 관련, 수학 관련, 자료구조와 관련된 클래스 (List, Map, Set, Collection.. etc) 등 유용한 클래스들을 많이 가지고 있다.
+- Date 클래스는 지역화를 지원하지 않는다. (국가별 날짜, 시간 등) (Calendar 클래스로 해결)
+
+### 그외
+- 그외 패키지들은 참고자료에 나와있다.
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://itellyhood.tistory.com/78)
+
+</br>
+
+---
+
+## Lambda
+
+- 의미: 람다 함수는 프로그래밍 언어에서 사용되는 개념으로 익명 함수를 지칭하는 용어이다. 간단히, 수학에서 사용하는 함수를 단순하게 표현하는 방법이다.
+- 특징:
+  * 람다 대수는 이름을 가질 필요가 없다. Anonymous Function
+  * 두 개 이상의 입력이 있는 함수는 최종적으로 1개의 입력만 받는 람다 대수로 단순화 될 수 있다. Curring
+  * 일급객체( 다른 객체들에 적용 가능한 연산을 모두 지원하는 개체)의 특징을 가지고 있다.
+
+### 장점
+- 코드의 간결성. 불필요한 반복문의 삭제가 가능하다
+- 지연연산 수행. 지연연산으로 불필요한 연산을 최소화 한다.
+- 병렬처리 가능. 멸티 쓰레디를 활용하여 병렬처리를 사용 할 수 있다.
+
+### 단점
+- 호출이 까다롭다.
+- 람다 stream 사용 시 단순 for문 혹은 while문 사용시 성능이 떨어진다
+- 너무 사용하면 가독성이 떨어진다.
+
+### 표현식
+- 매개변수 화살표(->) 함수 몸체로 사용한다.
+- 함수몸체가 단일 실행문이면 괄호({})를 생략 할 수 있다.
+- 함수몸체가 return문으로만 구성되어 있으면 괄호를 생략할 수 없다.
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://khj93.tistory.com/entry/JAVA-람다식Rambda란-무엇이고-사용법)
+
+</br>
+
+---
+
+## Lombok
+
+- 의미: 롬복은 java 라이브러리로 반복되는 getter, setter, toString 등의 메서드 작성 코드를 줄여주는 코드 다이어트 라이브러리이다.
+- 특징:
+  * 가독성이 올라가고 생산성이 올라간다.
+  * 충분한 숙지 없이 사용시 에러가 발생할 수 있다.(ToString)의 경우 스택오버플로우가 발생할 수 있다.
+
+### 단점
+- 직관성이 떨어진다.
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://dololak.tistory.com/783)
+
+</br>
+
+---
+
+## JPA
+
+- 의미: JPA는 Java Persistence API 이다. Persistence는 데이터를 생성한 프로그램의 실행이 종료되더라도 사라지지 않는 데이터의 특성을 의미한다.
+- 특징:
+  * JPA는 ORM(Object Relational Mapping) 기술이다. 오브젝트를 데이터베이스에 열결하는 방법론이다.
+  * JPA가 가지고 있는 인터페이스를 통해서 자바에서 클래스를 만들어 데이터베이스 테이블이 자동으로 생성되게 하는 것을 ORM이라 한다.
+  * JPA는 반복적인 CRUD 작업을 생략하게 해준다.
+  * JPA는 영속성 컨텍스트를 가지고 있다.
+  * DB와 OOP의 불일치성을 해결하기 위한 방법론을 제공한다.
+
+### 단점
+- 이해하고 사용하지 않으면 데이터 손실이 있을 수 있다.
+- 성능상 문제가 있을 수 있다.(잘 이해해야 해결이 가능하다)
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://blog.woniper.net/255)
+
+</br>
+
+---
+
+## 예외처리
+
+- 의미: 에러가 날 때 그에 맞는 적절한 처리를 도와준다.
+
+### try catch
+- try 안에 수행할 문장에서 예외가 발생하지 않는다면 catch 안 문장들은 수행 되지 않는다.
+- ex)
+```java
+    int c;
+    try {
+        c = 4 / 0;
+    }catch(ArithmeticException e) {
+        c = -1;
+    }
+```
+
+### finally
+- 예외발생 여부에 상관없이 무조건 실행해야 하는 코드를 수행한다.
+- ex)
+```java
+    int c;
+    try {
+        c = 4 / 0;
+    } catch (ArithmeticException e) {
+        c = -1;
+    } finally {
+        test.shouldBeRun();
+    }
+```
+
+### throw
+- 원하는 결과가 아닐때 예외를 직접 발생시킨다.
+- ex)
+```java
+    if("fool".equals(nick)) {
+        throw new FoolException();
+    }
+```
+
+### throws
+- function을 호출한 곳에서 예외를 처리하도록 하는 방법이다.
+- 호출할 때 try catch 를 써야한다.
+- ex)
+```java
+    public void sayNick(String nick) throws FoolException {
+        if("fool".equals(nick)) {
+            throw new FoolException();
+        }
+        System.out.println("당신의 별명은 "+nick+" 입니다.");
+    }
+```
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-4-1-Java)/[참고자료](https://wikidocs.net/229)
 
 </br>
 

@@ -1,15 +1,12 @@
 # Part 1-1 운영체제
 
 * [프로세스와 스레드](#프로세스와-스레드)
-  * 둘의 관계 및 셜명
   * 차이점 :zap:
-  * 멀티의 경우 차이점
 * [CPU와 GPU](#CPU-GPU)
-  * 설명
   * CPU vs GPU :zap:
 * [메모리 구성](#메모리-구성)
-  * 메모리 영역
   * 스택 vs 힙 :zap:
+* [커널](#커널)
 
 [뒤로](https://github.com/jhun0514/Today_I_Learn)
 
