@@ -6,6 +6,8 @@
 * [Spring DI](#Spring-DI)
 * [스프링 데이터베이스 접근 기술](#스프링-데이터베이스-접근-기술)
 * [RestTemplate](#RestTemplate)
+* [HTTP Methods for RESTful Service](#HTTP-Methods-for-RESTful-Service)
+* [Entity](#Entity)
 
 [뒤로](https://github.com/jhun0514/Today_I_Learn)
 
@@ -167,6 +169,42 @@
   * 논블럭, 리엑티브 웹 클라이언트로 동기, 비동기 방식을 지원한다.
 
 [뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-2-Spring)/[참고자료](https://advenoh.tistory.com/46)
+
+</br>
+
+---
+
+## HTTP Methods for RESTful Service
+
+- 의미: HTTP 문법은 정규화 인터페이스로 구성되어 있고 명사 단위 소스에 대응하도록 되어있다. 기본적인 CRUD를 구현하며 이외 다른 문법들도 제공한다.
+
+### CRUD 문법
+- POST (Create): 새로운 데이터를 만드는데 사용한다. 새로운 URL을 위해 ID를 부여하며 성공시 201를 리턴, 에러시 409(중복), 404(not found)를 리턴한다.
+- GET (Read): 데이터를 읽는데 사용한다. 에러가 없으면 XML이나 JSON으로 200코드와 함께 리턴한다. 에러시 404(not found), 400(bad request) 리턴한다.
+- PUT (Update/Replace): 데이터를 업데이트 하는데 사용한다. 존재하는 데이터에 PUT을 사용하면 새로운 데이터가 업데트된다. 존재하지 않는 데이터에 PUT을 사용하면 새로운 데이터가 생성된다 이런 경우 URL ID는 생성되지 않는다. 에러가 없으면 200코드와 함께 리턴한다 (204 바디가 없을시). 에러시 404(not found), 405(method not allowed) 리턴한다.
+- PATCH (Update/Modify): 데이터를 수정 하는데 사용한다. 수정 이므로 완벽한 데이터가 필요하지 않다. 에러가 없으면 200코드와 함께 리턴한다 (204 바디가 없을시). 에러시 404(not found), 405(method not allowed) 리턴한다.
+- DELETE (Delete): 데이터를 삭제하는데 사용한다. 에러가 없으면 200코드와 함께 리턴한다 (204 바디가 없을시). 에러시 404(not found), 405(method not allowed) 리턴한다.
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-2-Spring)/[참고자료](https://www.restapitutorial.com/lessons/httpmethods.html)
+
+</br>
+
+---
+
+## Entity
+
+- 의미: MVC기반으로 개발하며 REST API 서버를 만들때 Data model을 분리해서 사용하는게 일반적이며 '@Entity' 어노테이션을 붙여 DB테이블 구조의 역할을 부여한다. Model 역할을 하는 클래스이다.
+
+- 특징: 영속성 모델을 기반으로 만들어진 Entity는 테이블이 변경될때 필연적으로 변경이 일어나는 클래스이고 그에 따른 영향의 범위는 Model 영역 내에서만 이어야 한다.
+
+### Main Annotation
+- '@Entity': 해당 클래스가 entity임을 명시
+- '@Table': 실제 DB테이블의 이름을 명시
+- '@Id': Index primary key를 명시
+- '@Column': 실제 DB Column을 명시
+- '@GeneratedValue': Primary key 식별키의 전략 설정
+
+[뒤로](https://github.com/jhun0514/Today_I_Learn)/[위로](#part-5-2-Spring)/[참고자료](https://yonguri.tistory.com/69)
 
 </br>
 
